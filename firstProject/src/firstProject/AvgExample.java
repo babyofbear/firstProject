@@ -12,7 +12,7 @@ public class AvgExample {
 		int eng 	= 83;
 		
 		int sum 	= kor + math + eng;
-		double avg 	= sum / 3;	
+		double avg 	= sum / 3.0;	
 		System.out.println(name + "의 점수 합계는 " + sum + "점," + " 평균은 " + avg + "점 입니다.");
 				
 	}
