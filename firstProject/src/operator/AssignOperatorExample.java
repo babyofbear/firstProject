@@ -8,10 +8,10 @@ public class AssignOperatorExample {
 		val1 += 2;
 		
 		val1--;
-		val1 = val - 3;
+		val1 = val1 - 3;
 		val1 -= 3;
 		
-		val1 = va1 * 2;
+		val1 = val1 * 2;
 		val1 *=2;
 		
 		System.out.println(val1);
