@@ -1,4 +1,4 @@
-package firstProject;
+package basic;
 
 
 public class HelloMain {
