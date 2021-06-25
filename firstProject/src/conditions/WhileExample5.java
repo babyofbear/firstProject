@@ -56,7 +56,7 @@ public class WhileExample5 {
 				System.out.println("Same Same.");
 			} else if (str.equals("가위")) {
 				System.out.println("You Lose.");
-			} else if (str.equals("보")) {
+			} else {
 				System.out.println("You Win.");
 			}
 		}
