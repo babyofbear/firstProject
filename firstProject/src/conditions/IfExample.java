@@ -27,6 +27,7 @@ public class IfExample {
 	
 			int score = (int) (Math.random()*100)+1;
 			if(score >=90) {
+				//90점 이상 A학점
 				if(score >=95) {
 					System.out.println("A+");
 				} else {
@@ -55,6 +56,6 @@ public class IfExample {
 			} 
 			
 				
-			}
-   }
+			}//end of main()
+   }//
 
