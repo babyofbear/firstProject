@@ -28,7 +28,7 @@ public class ArrayExample {
 		
 		int sum = 0 ;
 	
-		for (int i = 0; i <5; i++); {
+		for (int i = 0; i <5; i++) {
 			sum += scores[i];
 			System.out.println(scores[i]); //scores[0] 첫번째 값
 			
