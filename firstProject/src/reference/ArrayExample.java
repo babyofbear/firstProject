@@ -15,10 +15,11 @@ public class ArrayExample {
 			System.out.println("intAry의 합 " + sum );
 		
 	
-		//int[] intAry2 = { 1, 2, 3, 4, 5 };// 배열 5개의 각 위치의 값까지 저장-한줄로 표현
-		int[] intAry2 = { 81, 82, 83, 84, 85};
+		int[] intAry2 = { 1, 2, 3, 4, 5 };// 배열 5개의 각 위치의 값까지 저장-한줄로 표현
+		
 		sum = 0;
 		for(int i = 0; i<intAry2.length; i++) {
+			intAry2[i] = intAry2[i] + 80;
 			sum = sum + intAry2[i];
 		}
 			System.out.println("intAry2의 합 " + sum );
