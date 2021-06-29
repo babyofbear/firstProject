@@ -26,22 +26,25 @@ public class ArrayExample6 {
 		
 		int[] scores = { 90, 80, 84 };
 		int sum = 0;
+		int maxScore = 0;
 		double avg = 0.0;
-		for(int i = 0; i < scores.length ; i++) {
+		
+		
+		for(int i = 1; i < scores.length ; i++) {
 			scores[i] = (int)(Math.random()*20) + 80 ;
+			System.out.print(i + "번 학생 점수는 " + scores[i] + "입니다.") ;
 			
-			sum = sum + scores[i]; 
+			// 점수는 랜덤으로 생기는데 학생 수는 2명만 생기는가?
+			sum = sum + scores[i]; 			
+			avg = sum / i;
 			
+			if (maxScore < scores[i]) {
+				maxScore = scores[i];
+			}
 		}
-		avg = sum / 3;
 		System.out.println("평균은 " + avg + "점 입니다.");
+		System.out.println("최고점수는 " + maxScore + "점 입니다.");
 		
-		
-		
-		
-		
-		System.out.println("최고점수는 " + avg + "점 입니다.");
-
 	}
 
 }
