@@ -30,7 +30,7 @@ public class StudentExample {
 		// 영어 수학 합한 점수 가장 높은 사람 찾기
 		int sum = 0;
 		for (int i = 0; i < students.length; i++) {
-			if (maxValue<(students[i].getEngscr() + students[i].getMathscr()))
+			if (maxValue<(students[i].getEngscr() + students[i].getMathscr()));
 		}
 		
 		String name = "";// 최고 영어 점수 학생 이름 

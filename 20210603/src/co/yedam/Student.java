@@ -7,6 +7,28 @@ public class Student {
 	private int engscr;
 	private int mathscr;
 	
+	
+	public Student( ) { //매개값이 없는 생성자가 기본으로 생성됨, 초기값이 없음
+		
+	}
+	
+	public Student(String name) { // 매개값을 가지는 생성자. 필드값 초기화
+		this.name = name;
+	}
+	
+	public Student(String name, int grade) {
+		this.name = name;
+		this.grade = grade;
+	}
+	
+	
+	public Student(String name, int grade, int engscr, int mathscr) {
+		this.name = name;
+		this.grade = grade;
+		this.engscr = engscr;
+		this.mathscr = mathscr;
+	}
+
 	public String getName() {
 		return name;
 	}
