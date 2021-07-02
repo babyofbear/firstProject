@@ -7,6 +7,17 @@ public class Member {
 	private String memberBirth;
 	private Gender memberGen;
 
+	
+	
+	public Member(int memberId, String memberName, String memberPhone, String memberBirth, Gender memberGen) {
+		super();
+		this.memberId = memberId;
+		this.memberName = memberName;
+		this.memberPhone = memberPhone;
+		this.memberBirth = memberBirth;
+		this.memberGen = memberGen;
+	}
+
 	public int getMemberId() {
 		return memberId;
 	}
@@ -54,4 +65,34 @@ public class Member {
 		return info;
 
 	}
+	
+	public String showInfo1() {
+
+		String info1 = ("==========================================" + "\n" + "회원번호: " + this.memberId +"\n" + "회원이름: " + this.memberName + "\n" +  " 연락처: " + this.memberPhone + "\n" +  " 생년월일: "
+				+ this.memberBirth + "\n" + " 성별: " + this.memberGen);
+		return info1;
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
