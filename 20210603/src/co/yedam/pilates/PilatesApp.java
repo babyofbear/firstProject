@@ -22,9 +22,7 @@ public class PilatesApp { // 클래스 영역
 				new Member(2, "박홍시", "01067789045", "930502", Gender.MEN),
 				new Member(3, "서토무", "01056346788", "920303", Gender.WOMEN),
 				new Member(4, "구제리", "01056433565", "920305", Gender.WOMEN) };
-		// 입력, 수정기능, 삭제, 회원리스트, 이름 조회, 종료
-		// 이름, 연락처, 생년월일(6자리), 성별
-
+		
 		// 1.입력 2.수정 3.삭제 4.회원리스트 5.이름조회 6.상세조회 0.종료
 		// 6.상세조회 4번의 회원리스트와는 다름
 		while (true) {
@@ -58,20 +56,20 @@ public class PilatesApp { // 클래스 영역
 
 	}// end of main
 
-	public int scanInt(String arg) { // 입력 메세지 출력 후 int(숫자) 반환
-		int val = 0;
-		while (true) {
-			try {
-				System.out.println("삭제할 회원 번호를 입력>>>");
-				val = scn.nextInt();
-				System.out.println("1건 삭제되었습니다.");
-				break;
-			} catch (Exception e) {
-
-			}
-		}
-		return val;
-	}
+//	public int scanInt(String arg) { // 입력 메세지 출력 후 int(숫자) 반환
+//		int val = 0;
+//		while (true) {
+//			try {
+//				System.out.println("삭제할 회원 번호를 입력>>>");
+//				val = scn.nextInt();
+//				System.out.println("1건 삭제되었습니다.");
+//				break;
+//			} catch (Exception e) {
+//
+//			}
+//		}
+//		return val;
+//	}
 
 	// 3.회원 삭제
 	public void memberDelete() {
@@ -188,6 +186,14 @@ public class PilatesApp { // 클래스 영역
 		return val;
 	}
 
+//	public int scan(String arg) { // 입력 메세지 출력 후 문자 입력값을 반환
+//		System.out.print(arg);
+//		int val = scn.next();
+//		return val;
+	}
+	
+	
+	
 	public Gender scanGen(String arg) { // 입력 메세지 출력 후 젠더 반환
 
 		Gender gender = null;
