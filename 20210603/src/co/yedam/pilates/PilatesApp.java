@@ -190,7 +190,7 @@ public class PilatesApp { // 클래스 영역
 //		System.out.print(arg);
 //		int val = scn.next();
 //		return val;
-	}
+//	}
 	
 	
 	
