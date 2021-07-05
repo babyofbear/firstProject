@@ -27,7 +27,7 @@ public class Account {
 		//	System.out.println("초기입금액:");
 		//	System.out.println("결과: 계좌가 생성되었습니다.");
 			
-			String Info() = (this.ano + "\n" +this.owner+ "\n" +this.balance) ;
+			String showInfo = (this.ano + "\n" +this.owner+ "\n" +this.balance) ;
 			return showInfo();
 		}
 		

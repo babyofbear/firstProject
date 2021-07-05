@@ -1,13 +1,22 @@
 package co.yedam.pilates;
 
 public class Member {
-	private int memberId;
+	private int memberId; //초기값
 	private String memberName;
 	private String memberPhone;
 	private String memberBirth;
 	private Gender memberGen;
 
 	
+//	public Member() { 초기값을 할당한 member field
+////		this.memberId = 100;
+////		this.memberName = "Hong";
+////		this.memberPhone = "0100100101";
+//	}
+	
+	public Member() { // 초기값이 null인 member field
+		
+	}
 	
 	public Member(int memberId, String memberName, String memberPhone, String memberBirth, Gender memberGen) {
 		super();
@@ -16,6 +25,15 @@ public class Member {
 		this.memberPhone = memberPhone;
 		this.memberBirth = memberBirth;
 		this.memberGen = memberGen;
+	}
+
+		
+
+	public Member(int memberId, String memberName, String memberPhone) {
+		super();
+		this.memberId = memberId;
+		this.memberName = memberName;
+		this.memberPhone = memberPhone;
 	}
 
 	public int getMemberId() {

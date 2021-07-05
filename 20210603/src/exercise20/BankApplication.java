@@ -24,7 +24,7 @@ public class BankApplication {
 			if(selectNo == 1) {
 				creatAccount();
 			} else if(selectNo == 2) {
-				creatAccount();
+				accountList();
 			} else if(selectNo == 3) {
 				creatAccount();
 			} else if(selectNo == 4) {
@@ -51,11 +51,11 @@ public class BankApplication {
 	
 	//계좌 목록 보기
 	public static void accountList() {
-		for(int i = 0; i < acccouns; i++) {
+		for(int i = 0; i < acccountArray.length; i++) {
 			System.out.println("============");
 			System.out.println("계좌목록");
 			System.out.println("============");
-			System.out.println(showInfo);
+			System.out.println(acccountArray[i].showInfo());
 		}
 		//작성위치
 	}
