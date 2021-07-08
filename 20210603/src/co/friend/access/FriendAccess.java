@@ -1,5 +1,7 @@
 package co.friend.access;
 
+import java.util.List;
+
 import co.friend.model.Friend;
 
 public interface FriendAccess {
@@ -11,7 +13,7 @@ public interface FriendAccess {
 	
 	public void delete(String name);
 	
-	public Friend[] selectAll();
+	public List<Friend> selectAll();
 	
 	//	return friends;
 	
